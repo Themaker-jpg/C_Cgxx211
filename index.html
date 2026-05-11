@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>💖</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>for you ♡</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <audio id="bgm" loop>
+  <source src="love.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", () => {
+  document.getElementById("bgm").play();
+}, { once:true });
+</script>
+
+<div class="bg-circle circle1"></div>
+<div class="bg-circle circle2"></div>
+<div class="bg-circle circle3"></div>
+
+<div class="floating-bg">
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+  <span>💖</span>
+</div>
+
+<div class="popup" id="popup"></div>
+
+<!-- PAGE 0 -->
+<div class="page active" id="page0">
+  <div class="box">
+    <h2>แก…เราอยากบอกอะไรแกนิดนึง 💖</h2>
+    <p>แต่ก่อนจะเริ่ม เค้ามีคำถามอยากถามแกนะ 🥺</p>
+    <button onclick="startQuiz()">โอเคพร้อมรึยัง 💌</button>
+  </div>
+</div>
+
+<!-- PAGE 1 -->
+<div class="page" id="page1">
+  <div class="box" id="quizBox"></div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="page2">
+  <div class="gift-wrap">
+    <div class="gift"></div>
+    <div class="bow">🎀</div>
+  </div>
+  <button onclick="openGift()">อยากรู้รึยังว่ามีอะไร 💌</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3">
+  <div class="safe">
+
+    <h2>ใส่วันเกิด 🔐</h2>
+
+    <p class="hint">
+      ถ้าอยากรู้ แกต้องแก้รหัสผ่านก่อนนะ 🥺<br>
+      คำใบ้: วันเกิด + เดือนเกิด (เติม 0 ข้างหน้าเดือน)
+    </p>
+
+    <div class="display" id="display">♡</div>
+
+    <div class="pad">
+      <button onclick="add('1')">1</button>
+      <button onclick="add('2')">2</button>
+      <button onclick="add('3')">3</button>
+      <button onclick="add('4')">4</button>
+      <button onclick="add('5')">5</button>
+      <button onclick="add('6')">6</button>
+      <button onclick="add('7')">7</button>
+      <button onclick="add('8')">8</button>
+      <button onclick="add('9')">9</button>
+      <button onclick="back()">⌫</button>
+      <button onclick="add('0')">0</button>
+      <button onclick="check()">♡</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page" id="page4">
+  <div class="card">
+
+    <h2>วันที่เรารวบรวมความกล้าทักไปหาแก 💖</h2>
+
+    <p>
+      24 February 2026 ✨<br>
+      <span class="sub-text">แต่เรารู้จักกันมา 4 ปีแล้วนะ</span>
+    </p>
+
+    <div id="timer">0 วัน 0 ชั่วโมง 0 นาที</div>
+
+    <button onclick="next()">แกอยากจะอ่านมันต่อมั้ยนะ 💌</button>
+  </div>
+</div>
+
+<!-- PAGE 5 -->
+<div class="page" id="page5">
+
+  <div class="message-box">
+
+    <h2>คือเราอยากจะขอบคุณเเกนะ 🤍</h2>
+
+    <div class="message-scroll">
+
+      <p>
+        จริงๆเราไม่รู้จะเริ่มพูดยังไงดี แต่มีบางอย่างที่เราอยากให้แกรู้ไว้มากๆ 🤍
+        ขอบคุณที่เข้ามาอยู่ในทุกๆวันของเรา ถึงบางทีเราอาจจะพูดไม่ค่อยเก่ง
+        หรือบางครั้งอาจดูไม่ค่อยชัดเจนกับความรู้สึกตัวเอง
+        แต่ทุกความรู้สึกที่มีให้แก มันจริงมากๆนะ
+      </p>
+
+      <p>
+        เราอาจจะมีแอบกลัวบ้างในบางครั้ง แต่เราก็อยากพยายามเพื่อแกนะ
+        เราอยากให้แกมีความสุขมากๆเลย แล้วทุกครั้งที่เห็นแกเศร้าหรือหมดกำลังใจ
+        เราก็รู้สึกไม่ค่อยดีเท่าไหร่ เพราะบางทีเราทำได้แค่คอยอยู่ข้างแกผ่านแชต
+      </p>
+
+      <p>
+        แต่จริงๆแล้ว เราอยากดูแลแกได้ดีกว่านี้นะ
+        เราชอบเวลาที่ได้คุยกับแก ชอบเวลาที่เห็นแกยิ้ม
+        แล้วก็ชอบที่ตอนนี้มีแกอยู่ในทุกๆวันของเรา 🤍
+      </p>
+
+      <p>
+        บางทีเราอาจไม่ได้เก่งในการแสดงออก
+        แต่เราหวังว่าแกจะรู้สึกได้ว่าเราใส่ใจแกจริงๆนะ
+        เราไม่รู้อนาคตจะเป็นยังไง แต่ตอนนี้เราดีใจมากที่มีแกอยู่ตรงนี้กับเรา
+      </p>
+
+      <p>
+        ถ้าวันไหนแกเหนื่อย หรือไม่ไหวจริงๆ
+        แกไม่ต้องเก่งตลอดเวลาก็ได้นะ แค่เป็นตัวเองก็พอแล้ว
+        เราอยากเป็นที่ที่แกกลับมาแล้วรู้สึกสบายใจ
+        ไม่ต้องฝืน ไม่ต้องเก็บอะไรไว้คนเดียว
+      </p>
+
+      <p>
+        ขอบคุณที่ยังอยู่ตรงนี้ ขอบคุณที่เป็นแก
+        และขอบคุณทุกอย่างที่ทำให้เราได้เจอกัน 🤍
+      </p>
+
+      <p>
+        เราไม่อยากให้ความรู้สึกของเรากลายเป็นแค่คำพูดผ่านๆ
+        แต่เราอยากให้มันค่อยๆ พิสูจน์ด้วยเวลา
+      </p>
+
+      <p>
+        ไม่ว่าตอนนี้หรือวันข้างหน้า
+        เราก็ยังอยากอยู่ข้างแกแบบนี้ไปเรื่อยๆ
+        แค่อยากให้รู้ว่า ไม่ว่าอะไรจะเกิดขึ้น
+        เราก็ยังอยากอยู่ตรงนี้กับแกเหมือนเดิม
+      </p>
+
+      <p>
+        ไม่ต้องพยายามเป็นอะไรที่ยิ่งใหญ่ก็ได้
+        แค่เป็นตัวเองแบบที่แกเป็น เราก็ชอบแล้ว
+      </p>
+
+      <p>
+        แล้วถ้าวันไหนแกยิ้มได้
+        เราก็จะดีใจมากเลยนะ เพราะมันมีความหมายกับเราจริงๆ 🤍✨
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
